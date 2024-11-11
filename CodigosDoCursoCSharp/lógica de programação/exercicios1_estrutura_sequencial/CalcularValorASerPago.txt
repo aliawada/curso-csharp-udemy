@@ -1,0 +1,8 @@
+            int codigo = int.Parse(Console.ReadLine());
+            int numero = int.Parse(Console.ReadLine());
+            double valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            int codigo2 = int.Parse(Console.ReadLine());
+            int numero2 = int.Parse(Console.ReadLine());
+            double valor2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double resposta = numero * valor + numero2 * valor2;
+            Console.WriteLine("VALOR A PAGAR: R$ " + resposta.ToString("F2", CultureInfo.InvariantCulture));

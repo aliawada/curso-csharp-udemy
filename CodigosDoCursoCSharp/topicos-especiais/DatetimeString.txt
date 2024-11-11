@@ -1,0 +1,15 @@
+ DateTimed = new DateTime(2001, 8, 15, 13, 45, 58);
+ strings1 = d.ToLongDateString();
+ strings2 = d.ToLongTimeString();
+ strings3 = d.ToShortDateString();
+ strings4 = d.ToShortTimeString();
+ strings5 = d.ToString();
+ strings6 = d.ToString("yyyy-MM-dd HH:mm:ss");
+ strings7 = d.ToString("yyyy-MM-dd HH:mm:ss.fff");
+ Console.WriteLine(s1);
+ Console.WriteLine(s2);
+ Console.WriteLine(s3);
+ Console.WriteLine(s4);
+ Console.WriteLine(s5);
+ Console.WriteLine(s6);
+ Console.WriteLine(s7);

@@ -1,0 +1,26 @@
+string[] valores = Console.ReadLine().Split(' ');
+int codigo = int.Parse(valores[0]);
+int quantidade = int.Parse(valores[1]);
+
+double resultado;
+
+if (codigo == 1)
+{
+    resultado = quantidade * 4.00;
+}
+else if (codigo == 2)
+{
+    resultado = quantidade * 4.50;
+}
+else if (codigo == 3)
+{
+    resultado = quantidade * 5.00;
+}
+else if (codigo == 4)
+{
+    resultado = quantidade * 2.00;
+} else
+{
+    resultado = quantidade * 1.50;
+}
+Console.WriteLine("Total: R$ " + resultado.ToString("F2", CultureInfo.InvariantCulture ));

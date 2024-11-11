@@ -1,0 +1,5 @@
+            int numero = int.Parse(Console.ReadLine());
+            int horas = int.Parse(Console.ReadLine());
+            double valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double salario = horas * valor;
+            Console.WriteLine("NUMBER = " + numero + "\nSALARY = U$ " + salario.ToString("F2", CultureInfo.InvariantCulture));

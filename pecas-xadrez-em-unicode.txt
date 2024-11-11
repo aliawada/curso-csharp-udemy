@@ -1,0 +1,48 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        char[,] board = new char[8, 8]
+        {
+            { '♜', '♞', '♝', '♛', '♚', '♝', '♞', '♜' },
+            { '♟', '♟', '♟', '♟', '♟', '♟', '♟', '♟' },
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+            { '♙', '♙', '♙', '♙', '♙', '♙', '♙', '♙' },
+            { '♖', '♘', '♗', '♕', '♔', '♗', '♘', '♖' }
+        };
+
+        PrintBoard(board);
+    }
+
+    static void PrintBoard(char[,] board)
+    {
+        for (int i = 0; i < 8; i++)
+        {
+            for (int j = 0; j < 8; j++)
+            {
+                Console.Write(board[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
+AI-generated code. Review and use carefully. More info on FAQ.
+This code initializes a chessboard with Unicode characters for the pieces and prints it to the console. The pieces are represented as follows:
+
+♜ (Rook)
+♞ (Knight)
+♝ (Bishop)
+♛ (Queen)
+♚ (King)
+♟ (Pawn)
+♖ (Rook)
+♘ (Knight)
+♗ (Bishop)
+♕ (Queen)
+♔ (King)
+♙ (Pawn)

@@ -1,0 +1,21 @@
+Pessoa pessoaA, pessoaB;
+
+pessoaA = new Pessoa();
+pessoaB = new Pessoa();
+
+Console.WriteLine("Entre com as informações da pessoa A:");
+pessoaA.Nome = Console.ReadLine();
+pessoaA.Idade = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Entre com as informações da pessoa B:");
+pessoaB.Nome = Console.ReadLine();
+pessoaB.Idade = int.Parse(Console.ReadLine());
+
+if (pessoaA.Idade > pessoaB.Idade)
+{
+    Console.WriteLine("Pessoa mais velha: " + pessoaA.Nome);
+}
+else
+{
+    Console.WriteLine("Pessoa mais velha: " + pessoaB.Nome);
+}

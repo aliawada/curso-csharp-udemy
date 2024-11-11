@@ -1,0 +1,16 @@
+Funcionario f1, f2;
+
+f1 = new Funcionario();
+f2 = new Funcionario();
+
+Console.WriteLine("Entre com as informações do funcionário 1:");
+f1.nome = Console.ReadLine();
+f1.salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+Console.WriteLine("Entre com as informações do funcionário 2:");
+f2.nome = Console.ReadLine();
+f2.salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+double media = (f1.salario + f2.salario) / 2.00;
+
+Console.WriteLine("Salário Médio: " + media.ToString("F2", CultureInfo.InvariantCulture));

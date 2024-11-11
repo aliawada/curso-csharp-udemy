@@ -1,0 +1,4 @@
+ctrl + k + d = formatação automática
+escrever CW e apertar tab 2 vezes = Console.WriteLine();
+escrever prop e apertar tab = public int MyProperty {get; set;}
+ctrl + shift + b = testa se o projeto esta compilando

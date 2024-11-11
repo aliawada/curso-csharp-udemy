@@ -1,0 +1,4 @@
+nome da variável dentro de um método dentro da classe começa com letra minúscula.
+_(letra minuscula) ex: _nome, usar quando o atributo da classe for private.
+params na frente do vetor = new int[] {2, 4} para 2, 4
+classes enum recebem as variáveis de forma PascalCase e também não esquecer de colocar o tipo assim por exemplo : int

@@ -1,0 +1,17 @@
+int n = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < n; i++)
+{
+    string[] par = Console.ReadLine().Split(' ');
+    double a = double.Parse(par[0]);
+    double b = double.Parse(par[1]);
+
+    if (b == 0)
+    {
+        Console.WriteLine("divisao impossivel");
+    }
+    else
+    {
+        Console.WriteLine((a / b).ToString("F1", CultureInfo.InvariantCulture));
+    }
+}

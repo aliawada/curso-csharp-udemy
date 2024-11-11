@@ -1,0 +1,6 @@
+Add-Migration NomeMigration
+adiciona uma nova migration 
+(para criar uma nova migration de um modelo, é preciso trocar o context na pasta Data) por ex: public DbSet<SalesWebMvc.Models.Seller> Seller { get; set; }
+
+Update-Database 
+atualiza o banco de dados com as migrations

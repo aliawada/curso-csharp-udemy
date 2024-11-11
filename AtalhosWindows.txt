@@ -1,0 +1,10 @@
+adicionar programa ao inicializar automático do windows
+1. windows + r
+2. %AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+3. copia e cola o atalho do programa
+4. confirmar no gerenciador de tarefas e pronto
+
+alt + 92 = \
+alt + 0063 = ?
+alt + 124 = |
+alt + 64 = @

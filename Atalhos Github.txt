@@ -1,0 +1,3 @@
+--local = repositorio local
+--global = para todos os repositorios 
+Ex: usar quando for logar na conta do github

@@ -1,0 +1,36 @@
+string[] valores = Console.ReadLine().Split(' ');
+double x = double.Parse(valores[0], CultureInfo.InvariantCulture);
+double y = double.Parse(valores[1], CultureInfo.InvariantCulture);
+
+while (x != 0 && y != 0)
+{
+    Quadrante(x, y);
+    valores = Console.ReadLine().Split(' ');
+    x = double.Parse(valores[0], CultureInfo.InvariantCulture);
+    y = double.Parse(valores[1], CultureInfo.InvariantCulture);
+}
+
+
+
+
+
+static void Quadrante(double x, double y)
+{
+
+    if (x > 0.0 && y > 0.0)
+    {
+        Console.WriteLine("Q1");
+    }
+    else if (x < 0.0 && y > 0.0)
+    {
+        Console.WriteLine("Q2");
+    }
+    else if (x < 0.0 && y < 0.0)
+    {
+        Console.WriteLine("Q3");
+    }
+    else
+    {
+        Console.WriteLine("Q4");
+    }
+}
